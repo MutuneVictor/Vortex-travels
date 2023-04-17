@@ -28,11 +28,7 @@ header {
 	align-items: center;
 	text-align: center;
 }
-#logo{
-padding-top: 10px;
-width:250px;
-content-visibility: visible;
-}
+
 nav {
 	display: flex;
 	align-items: center;
