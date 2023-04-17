@@ -1,0 +1,320 @@
+/* Global Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+	line-height: 1.5;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+	background-image: url("images/header-bg.png");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+#logo{
+padding-top: 10px;
+width:250px;
+content-visibility: visible;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav img {
+	height: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin-bottom: 10px;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #0983a1;
+}
+
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	transition: all 0.3s ease;
+}
+
+nav a:hover {
+	color: #f1c40f;
+}
+
+.hero-text h1 {
+	font-size: 48px;
+	color: #070000;
+	margin-bottom: 20px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #f1c40f;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #f1c40f;
+}
+
+/* Main Content Styles */
+section {
+	margin: 50px
+}
+nav img {
+	height: 80px;
+}
+
+header h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+nav ul li a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+/* Banner Styles */
+#banner {
+	background-image: url('images/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 100px 0;
+}
+
+#banner h2 {
+	font-size: 48px;
+	margin: 0;
+}
+
+#banner p {
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.btn {
+	background-color: #fff;
+	color: #006699;
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.btn:hover {
+	background-color: #006699;
+	color: #fff;
+}
+
+/* About Section Styles */
+#about {
+	background-color: #fff;
+	padding: 100px 0;
+}
+
+#about h2 {
+	font-size: 36px;
+	margin: 0;
+}
+
+#about p {
+	font-size: 18px;
+	margin: 20px 0;
+}
+
+/* Destinations Section Styles */
+#destinations {
+	background-color: #f2f2f2;
+	padding: 100px 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+#destinations h2 {
+	font-size: 36px;
+	margin: 0;
+}
+
+#destinations p {
+	font-size: 18px;
+	margin: 20px 0;
+}
+
+#destinations ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#destinations ul li {
+	flex-basis: calc(33.33% - 20px);
+	margin-bottom: 40px;
+}
+
+#destinations ul li img {
+	width: 100%;
+}
+
+#destinations ul li h3 {
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+#destinations ul li p {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+/* Contact Section Styles */
+#contact {
+	background-color: #fff;
+	padding: 100px 0;
+}
+
+#contact h2 {
+	font-size: 36px;
+	margin: 0;
+}
+
+form label {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+}
+
+form input[type="submit"] {
+	background-color: #006699;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+form input[type="submit"]:hover {
+	background-color: #fff;
+	color: #006699;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #006699;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+	font-size: 18px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	border-bottom: 1px solid #fff;
+}
+
